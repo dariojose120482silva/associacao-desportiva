@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog pessoal com as últimas notícias sobre tecnologia, esportes e atualidades">
+    <meta name="author" content="Seu Nome">
+    <meta property="og:title" content="Blog Pessoal de Notícias">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seudominio.com">
+    <meta property="og:image" content="./asset/thumbnail-blog.jpg">
+    <title>Blog Liga Desportiva de Terra Nova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="asset/logo-blog.png" style="width: 100px; height: 100px;" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <img class="img-logo" src="./asset/logo-blog.png" alt="Logo do Blog Pessoal">
+            <h1>Blog Liga Desportiva</h1>
+        </div>
+
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+            &#6999;
+        </button>
+
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li><a href="#hero-noticia" aria-current="page">Home</a></li>
+                <li><a href="#ultimas-noticias">Notícias</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="search-area">
+            <search>
+                <form action="/buscar" method="get" role="search">
+                    <label for="search-input" class="visually-hidden">Buscar notícias:</label>
+                    <input type="search" id="search-input" name="q" placeholder="Buscar notícias..." required>
+                    <button type="submit">Buscar</button>
+                </form>
+            </search>
+        </section>
+
+        <section id="hero-noticia" class="hero-section">
+            <article class="hero-card">
+                <img src="./asset/hero-image.jpg" alt="Imagem da notícia em destaque" class="hero-image">
+                <div class="hero-content">
+                    <span class="hero-tag">Destaque</span>
+                    <h2>Título da Principal Notícia do Dia</h2>
+                    <p class="hero-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua...</p>
+                    <div class="hero-meta">
+                        <span class="hero-author">Por João Silva</span>
+                        <time datetime="2024-01-15">15 de Janeiro, 2024</time>
+                    </div>
+                    <a href="#" class="hero-link">Leia mais &rarr;</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="content-wrapper">
+            <section id="ultimas-noticias" class="posts-section">
+                <h2>Últimas Notícias</h2>
+
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <img src="./asset/noticia1.jpg" alt="Descrição da imagem da notícia 1" class="post-image">
+                        <div class="post-content">
+                            <span class="post-category">Tecnologia</span>
+                            <h3>Título da Primeira Notícia</h3>
+                            <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                                eiusmod tempor incididunt ut labore...</p>
+                            <div class="post-meta">
+                                <span class="post-author">Por Maria Santos</span>
+                                <time datetime="2024-01-14">14 de Janeiro, 2024</time>
+                            </div>
+                            <a href="#" class="read-more">Continuar lendo</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <img src="./asset/noticia2.jpg" alt="Descrição da imagem da notícia 2" class="post-image">
+                        <div class="post-content">
+                            <span class="post-category">Esportes</span>
+                            <h3>Título da Segunda Notícia</h3>
+                            <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                                eiusmod tempor incididunt ut labore...</p>
+                            <div class="post-meta">
+                                <span class="post-author">Por Pedro Costa</span>
+                                <time datetime="2024-01-13">13 de Janeiro, 2024</time>
+                            </div>
+                            <a href="#" class="read-more">Continuar lendo</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <img src="./asset/noticia3.jpg" alt="Descrição da imagem da notícia 3" class="post-image">
+                        <div class="post-content">
+                            <span class="post-category">Política</span>
+                            <h3>Título da Terceira Notícia</h3>
+                            <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                                eiusmod tempor incididunt ut labore...</p>
+                            <div class="post-meta">
+                                <span class="post-author">Por Ana Oliveira</span>
+                                <time datetime="2024-01-12">12 de Janeiro, 2024</time>
+                            </div>
+                            <a href="#" class="read-more">Continuar lendo</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <img src="./asset/noticia4.jpg" alt="Descrição da imagem da notícia 4" class="post-image">
+                        <div class="post-content">
+                            <span class="post-category">Entretenimento</span>
+                            <h3>Título da Quarta Notícia</h3>
+                            <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                                eiusmod tempor incididunt ut labore...</p>
+                            <div class="post-meta">
+                                <span class="post-author">Por Carlos Lima</span>
+                                <time datetime="2024-01-11">11 de Janeiro, 2024</time>
+                            </div>
+                            <a href="#" class="read-more">Continuar lendo</a>
+                        </div>
+                    </article>
+                </div>
+
+
+                <nav class="pagination" aria-label="Navegação entre páginas">
+                    <a href="#" class="pagination-prev" aria-label="Página anterior">&laquo; Anterior</a>
+                    <span class="pagination-current" aria-current="page">Página 1 de 10</span>
+                    <a href="#" class="pagination-next" aria-label="Próxima página">Próxima &raquo;</a>
+                </nav>
+            </section>
+
+            <aside class="sidebar">
+                <section class="newsletter-widget">
+                    <h3>Fique por dentro!</h3>
+                    <p>Receba as principais notícias no seu e-mail</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <label for="newsletter-email" class="visually-hidden">Seu melhor e-mail</label>
+                            <input type="email" id="newsletter-email" name="email" placeholder="Seu melhor e-mail"
+                                required>
+                        </div>
+                        <button type="submit" class="newsletter-button">Assinar newsletter</button>
+                    </form>
+                    <small>Prometemos não enviar spam</small>
+                </section>
+
+                <section class="tags-widget">
+                    <h3>Tags Populares</h3>
+                    <div class="tags-cloud">
+                        <a href="#" class="tag">#Tecnologia</a>
+                        <a href="#" class="tag">#Brasil</a>
+                        <a href="#" class="tag">#Esportes</a>
+                        <a href="#" class="tag">#Política</a>
+                        <a href="#" class="tag">#Economia</a>
+                        <a href="#" class="tag">#Saúde</a>
+                        <a href="#" class="tag">#Educação</a>
+                        <a href="#" class="tag">#Cultura</a>
+                    </div>
+                </section>
+
+                <section class="recent-posts-widget">
+                    <h3>Posts Recentes</h3>
+                    <ul class="recent-posts-list">
+                        <li><a href="#">Título do post recente 1</a></li>
+                        <li><a href="#">Título do post recente 2</a></li>
+                        <li><a href="#">Título do post recente 3</a></li>
+                        <li><a href="#">Título do post recente 4</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <nav class="footer-nav" aria-label="Links de navegação do rodapé">
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="LinkedIn">LI</a>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; 2024 Blog Pessoal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
