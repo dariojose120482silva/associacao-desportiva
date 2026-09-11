@@ -704,6 +704,10 @@ body {
 
 
 @media (max-width: 968px) {
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.85); /* Aumenta o escurecimento no mobile */
+    }
     .hero-title {
         font-size: 2.5rem;
     }
@@ -719,6 +723,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.586); /* Aumenta o escurecimento no mobile */
+    }
     /* --- Integração da Imagem Mobile via Background --- */
     .hero-section {
         min-height: 450px;
@@ -783,6 +791,15 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    .hero-overlay {
+       
+    top: 2; 
+    left: 2;
+    right: 2;
+    bottom: 2;
+        background: rgba(0, 0, 0, 0.614); /* Aumenta o escurecimento no mobile */
+    }
     .hero-title {
         font-size: 1.75rem;
     }
@@ -803,6 +820,10 @@ body {
 
 /* Responsividade */
 @media (max-width: 968px) {
+
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.582); /* Aumenta o escurecimento no mobile */
+    }
     .hero-section {
         min-height: 500px;
         padding: 3rem 4%;
@@ -823,7 +844,9 @@ body {
 }
 
 @media (max-width: 768px) {
-
+.hero-overlay {
+        background: rgba(0, 0, 0, 0.57); /* Aumenta o escurecimento no mobile */
+    }
     .hero-section {
         min-height: 450px;
         padding: 2.5rem 3%;
@@ -892,6 +915,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hero-overlay {
+        background: rgba(0, 0, 0, 0.563); /* Aumenta o escurecimento no mobile */
+    }
     .hero-section {
         min-height: 420px;
         padding: 2rem 1.5rem;
